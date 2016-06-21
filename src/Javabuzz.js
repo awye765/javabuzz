@@ -46,3 +46,19 @@ function Javabuzz() {
       return "Java";
     };
   };
+
+// The below will run javabuzz for the numbers 1-100 in the console
+
+var javabuzz = new Javabuzz();
+// The above acreates a new instance of the Javabuzz class called
+// 'javabuzz'.
+for (var i = 1; i <= 100; i++) {
+// var i = 1
+// => creates a variable "i" and assigns it value of 1
+//
+// i <= 100; i++
+// => for so long as i is less than or equal to 100, keep incrementing
+//    i by 1 each iteration
+//
+  console.log(javabuzz.says(i));
+}
