@@ -38,13 +38,13 @@ function Javabuzz() {
   Javabuzz.prototype.says = function(number) {
     if (this.isDivisibleByFifteen(number)) {
       return "Javabuzz";
-    };
+    }
     if (this.isDivisibleByFive(number)) {
       return "Buzz";
-    };
+    }
     if (this.isDivisibleByThree(number)) {
       return "Java";
-    };
+    }
   };
 
 // The below will run javabuzz for the numbers 1-100 in the console
